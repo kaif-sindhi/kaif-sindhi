@@ -71,7 +71,7 @@ function App() {
               <span>LinkedIn</span>
             </a>
 
-            <a href="mailto:kaif.sindhi.ks@outlook.com" aria-label="Email">
+            <a href="mailto:contact@kaifsindhi.com" aria-label="Email">
               <Mail size={20} />
               <span>Email</span>
             </a>
