@@ -1,6 +1,7 @@
 import './App.css'
 import { Github, Linkedin, Mail, FileText } from 'lucide-react'
 import headshot from './assets/headshot.png'
+import resume from './assets/Sindhi_Kaif_Resume_3.7.26.pdf'
 
 function App() {
   return (
@@ -16,9 +17,9 @@ function App() {
           <div className="intro">
             <p className="eyebrow">Software Engineer</p>
             <h1>Kaif Sindhi</h1>
-            <p className="subtitle">Java • React • SQL • Full-Stack Development</p>
+            <p className="subtitle">Software Development • Full-Stack • Java • React</p>
             <p className="bio">
-              Software engineer with 3+ years of professional experience building scalable applications using Java and modern web technologies. 
+              Software engineer with 3+ years of professional experience building scalable applications using Java and modern web technologies.
               Experienced in full-stack development, enterprise systems, and delivering production software in collaborative Agile environments.
             </p>
           </div>
@@ -30,30 +31,33 @@ function App() {
                 <span>Java</span>
                 <span>React</span>
                 <span>SQL</span>
-                <span>.NET</span>
                 <span>GraphQL</span>
-                <span>Appian</span>
+                <span>MongoDB</span>
                 <span>Docker</span>
+                <span>Kafka</span>
+                <span>Spring</span>
+                <span>API Design</span>
               </div>
             </div>
 
             <div className="info-block">
               <h2>Projects</h2>
               <ul>
-                <li>Dealership Simulation Game (Unity)</li>
-                <li>Bonfire Upcycle Platform</li>
-                <li>Enterprise Business Process Solutions</li>
+                <li>IntelliPro</li>
+                <li>Liferay Web Portal</li>
+                <li>Upcycle</li>
+                <li>Insight Configurator</li>
               </ul>
             </div>
           </div>
 
           <div className="actions">
-            <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <a href="https://github.com/kaif-sindhi" target="_blank" rel="noreferrer" aria-label="GitHub">
               <Github size={20} />
               <span>GitHub</span>
             </a>
 
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/kaifsindhi" target="_blank" rel="noreferrer" aria-label="LinkedIn">
               <Linkedin size={20} />
               <span>LinkedIn</span>
             </a>
@@ -63,7 +67,7 @@ function App() {
               <span>Email</span>
             </a>
 
-            <a href="/resume.pdf" target="_blank" rel="noreferrer" aria-label="Resume">
+            <a href={resume} target="_blank" rel="noreferrer" aria-label="Resume">
               <FileText size={20} />
               <span>Resume</span>
             </a>
