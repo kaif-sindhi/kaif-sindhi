@@ -18,9 +18,8 @@ function App() {
             <h1>Kaif Sindhi</h1>
             <p className="subtitle">Java • React • SQL • Full-Stack Development</p>
             <p className="bio">
-              Software engineer with experience building full-stack web applications
-              using Java, React, SQL, and Appian. I enjoy designing scalable systems,
-              clean user interfaces, and practical solutions that deliver business value.
+              Software engineer with 3+ years of professional experience building scalable applications using Java and modern web technologies. 
+              Experienced in full-stack development, enterprise systems, and delivering production software in collaborative Agile environments.
             </p>
           </div>
 
