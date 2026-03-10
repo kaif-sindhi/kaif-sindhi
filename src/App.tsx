@@ -15,7 +15,7 @@ function App() {
 
         <div className="content-section">
           <div className="intro">
-            <p className="eyebrow">Software Engineer</p>
+            <p className="eyebrow">Software Engineer | Milwaukee, WI</p>
             <h1>Kaif Sindhi</h1>
             <p className="subtitle">Full-Stack Software Engineer • Java • React • Backend Systems</p>
             <p className="bio">
