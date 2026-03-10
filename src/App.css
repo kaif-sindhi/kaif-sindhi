@@ -251,3 +251,11 @@ h1 {
     justify-content: center;
   }
 }
+
+.bio-compact {
+  margin-top: -2px;
+  color: #9fb3cf;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  font-weight: 500;
+}

@@ -17,10 +17,14 @@ function App() {
           <div className="intro">
             <p className="eyebrow">Software Engineer</p>
             <h1>Kaif Sindhi</h1>
-            <p className="subtitle">Software Development • Full-Stack • Java • React</p>
+            <p className="subtitle">Full-Stack Software Engineer • Java • React • Backend Systems</p>
             <p className="bio">
-              Software engineer with 3+ years of professional experience building scalable applications using Java and modern web technologies.
-              Experienced in full-stack development, enterprise systems, and delivering production software in collaborative Agile environments.
+              Software engineer with 3+ years of professional experience building enterprise and customer-facing applications using Java, React, SQL, and modern web technologies. Experienced delivering production software in Agile teams across full-stack development, backend services, and business-critical systems.
+            </p>
+            <p className="bio bio-compact">
+              • Delivered production-ready systems in finance and insurance domains
+              <br/>
+              • B.Sc. in Software Engineering from MSOE, May 2023
             </p>
           </div>
 
@@ -52,6 +56,11 @@ function App() {
           </div>
 
           <div className="actions">
+            <a href={resume} target="_blank" rel="noreferrer" aria-label="Resume">
+              <FileText size={20} />
+              <span>Resume</span>
+            </a>
+
             <a href="https://github.com/kaif-sindhi" target="_blank" rel="noreferrer" aria-label="GitHub">
               <Github size={20} />
               <span>GitHub</span>
@@ -65,11 +74,6 @@ function App() {
             <a href="mailto:kaif.sindhi.ks@outlook.com" aria-label="Email">
               <Mail size={20} />
               <span>Email</span>
-            </a>
-
-            <a href={resume} target="_blank" rel="noreferrer" aria-label="Resume">
-              <FileText size={20} />
-              <span>Resume</span>
             </a>
           </div>
         </div>
