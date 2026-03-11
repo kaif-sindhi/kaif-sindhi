@@ -17,7 +17,7 @@ function App() {
           <div className="intro">
             <p className="eyebrow">Software Engineer | Milwaukee, WI</p>
             <h1>Kaif Sindhi</h1>
-            <p className="subtitle">Full-Stack Software Engineer • Java • React • Backend Systems</p>
+            <p className="subtitle">Full-Stack • Java • React • Backend Systems</p>
             <p className="bio">
               Software engineer with 3+ years of professional experience building enterprise and customer-facing applications using Java, React, SQL, and modern web technologies. Experienced delivering production software in Agile teams across full-stack development, backend services, and business-critical systems.
             </p>
