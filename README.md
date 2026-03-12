@@ -14,4 +14,5 @@ Software engineer with 3+ years of professional experience building scalable app
 
 ## Contact
 📧 contact@kaifsindhi.com
+
 🔗 https://www.linkedin.com/in/kaifsindhi
